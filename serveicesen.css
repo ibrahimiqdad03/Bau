@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(green,WHITE  );
+  }
+ 
+  a:hover{
+    color:white;
+  }
+  a {
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding: 50px;
+    text-decoration: none;
+  }
+.homeplanstd img {
+    display: block; 
+    margin-bottom: 5px; 
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.table-container {
+    width: 100%;
+}
+td{
+    align-items: center;
+    text-align: center;
+}
+button {
+    background-color: orange;
+    color: white;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+    cursor: pointer;
+    border-radius: 30%;
+     }
+     button:hover{
+      color:white;
+      scale: 115%;
+      background-color:navy;
+      transform: scale(1.1); 
+     
+    }
+    ul {
+        list-style-type: none;
+        padding: 10px;
+        background: linear-gradient(45deg,goldenrod,black,midnightblue);
+      }
+      
+      li {
+        display: inline;
+        margin-right: 20px;
+    
+      }
+    

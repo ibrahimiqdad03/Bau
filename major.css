@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  ul {
+    list-style-type: none;
+    padding: 10px;
+    background-color: midnightblue;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 7px;
+
+  }
+  a:hover{
+    color:goldenrod;
+  }
+  a {
+    color:#BDBDBD;
+    text-align: center;
+    padding: 50px;
+    text-decoration: none;
+  }
+.homeplanstd img {
+    display: block; 
+    margin-bottom: 5px; 
+}
+img{
+  border: 5px solid goldenrod;
+    width: 490px;
+    height: 300px;
+}
+.table-container {
+    width: 100%;
+}
+td{
+    align-items: center;
+    text-align: center;
+}
+button {
+  background: cyan;
+  box-shadow: 0 0  5px cyan,
+  0 0 25px cyan;
+    
+    color: goldenrod;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+    cursor: pointer;
+    
+     }
+     button:hover{box-shadow: 0 0  5px cyan,
+      0 0 25px cyan, 0 0  50px cyan,
+      0 0  100px cyan, 0 0  200px cyan;
+        
+      
+      letter-spacing: 0.15em;
+      scale: 115%;
+      
+      transform: scale(1.1); 
+     
+    }
